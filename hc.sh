@@ -15,7 +15,7 @@ cat <<EOL > app.py
 from flask import Flask, jsonify, request
 import requests
 
-app = Flask(name)
+app = Flask(__name__)
 
 # 获取最新区块哈希
 def get_latest_block_hash():
@@ -40,7 +40,7 @@ def get_random_number():
         'latest_hash': latest_hash
     })
 
-if name == 'main':
+if __name__ == '__main__':
     app.run(debug=True)
 EOL
 
@@ -85,7 +85,7 @@ cat <<EOL > index.html
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('result').innerText = 
-                        \随机数: \${data.random_number} (哈希值: \${data.latest_hash})\;
+                        \`随机数: \${data.random_number} (哈希值: \${data.latest_hash})\`;
                 });
         });
     </script>
