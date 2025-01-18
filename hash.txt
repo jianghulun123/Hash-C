@@ -1,0 +1,25 @@
+||map.googleapis.com^
+||youtube.com/get_video_info**$domain=youtube.com
+||lb._dns-sd._udp.0.5.168.192.in-addr.arpa^$important
+/googleads.$~script,domain=~googleads.github.io
+/pagead/lvz?
+||google.com/pagead/
+||static.doubleclick.net^$domain=youtube.com
+||youtube.com/get_midroll_
+||safebrowsing.googleapis-cn.com
+||doubleclick.net
+||youtube.com^$third-party
+127.0.0.1 appboot.netflix.com
+127.0.0.1 ios.prod.cloud.netflix.com
+127.0.0.1 android-appboot.netflix.com
+127.0.0.1 android.prod.cloud.netflix.com
+||huibo111.com^
+||apimobile.meituan.com^
+||pool.ntp.org^
+@@||t.co^
+||sylvan.apple.com^
+||rfa.org^
+||03mijuc.com^
+||9kknvseewmpy389.com^
+||cevtr5x6.com^
+127.0.0.1 ad1.lzacg.top
